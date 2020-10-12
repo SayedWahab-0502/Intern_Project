@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.Labbay.HelperClasses.MyAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class Performance extends AppCompatActivity {
