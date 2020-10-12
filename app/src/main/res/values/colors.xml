@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#008577</color>
+  <color name="colorPrimaryDark">#00574B</color>
+  <color name="colorAccent">#D81B60</color>
+  <color name="white">#ffffff</color>
+
+
+
+
+  <color name="colorblack">#000000</color>
+  <color name="colorgold">#ffd700</color>
+  <color name="colorsnow">#fffafa</color>
+  <color name="newbg">#e0eee0</color>
+
+  <color name="royal_blue">#FC1B309E</color>
+  <color name="royal_blue2">#E65D6BAF</color>
+
+  <color name="new_color">#FDFDFD</color>
+  <color name="lightcolor">#F9F1F1</color>
+
+  <color name="blue_main">#F2234ABD</color>
+  <color name="orange_main">#F5ED760D</color>
+  <color name="orange_main2">#E2F6AB16</color>
+    <color name="orange_main3">#C9FA9020</color>
+
+
+
+  <color name="colorNavIcon">#dae9f6</color>
+  <color name="colorNavText">#01294b</color>
+
+  <color name="colorbgicons">#F8876363</color>
+
+
+    <color name="new_dark_color">#F8785555</color>
+
+  <color name="colorbgicons_new">#F8F4F4</color>
+
+  <color name="colorblack2">#F3131313</color>
+
+
+
+
+</resources>

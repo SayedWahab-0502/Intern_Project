@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Awarded">
+
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_stroke"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:id="@+id/linear">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_new_product"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView_congo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Congratulation"
+            android:textStyle="bold"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="You just have been awarded"
+            android:textColor="@color/royal_blue"
+            android:textSize="17sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/middle_relative">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:id="@+id/linear11"
+            android:background="@drawable/border_button"
+            android:layout_marginHorizontal="12dp"
+            android:backgroundTintMode="src_over"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/ic_woodwork"
+                android:scaleType="centerInside"
+                android:background="@drawable/shape222">
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="I need a new bed for my bed room"
+                android:textSize="13sp"
+                android:textColor="@color/royal_blue"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear222"
+            android:layout_marginHorizontal="12dp"
+            android:layout_below="@+id/linear11"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requester name:"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="@string/suliman_mohammed"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linear33"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_below="@+id/linear222">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_coins"
+               ></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your budget:"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="$30-$50"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+              ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="USD"
+                android:textSize="8dp"
+                android:textColor="#e0eee0"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="12dp"
+            android:id="@+id/linear44"
+            android:layout_below="@+id/linear33">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_gps_location"></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Requester Address:"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_gravity="center_vertical">
+            </TextView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@id/linear44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/background_textview"
+            android:backgroundTintMode="src_over"
+            android:backgroundTint="@color/white"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisng elit, \nsed do eiusmod tempor incididunt ut labore et dolore ma "
+            android:textColor="@color/royal_blue"
+            android:textSize="10sp"></TextView>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/middle_relative"
+        android:layout_marginTop="25dp"
+        android:id="@+id/linear_call_chat"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:text="Call"
+
+            android:textColor="@color/royal_blue2"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:paddingHorizontal="22dp"
+            android:background="@drawable/call_chat">
+
+        </Button>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:drawableLeft="@drawable/ic_chat_bubbles_with_ellipsis"
+            android:text="Chat"
+            android:textColor="@color/royal_blue2"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="40dp"
+            android:textAllCaps="false"
+            android:paddingHorizontal="22dp"
+            android:background="@drawable/call_chat">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linear_call_chat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="View Order"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/button"
+        android:id="@+id/view_order">
+    </Button>
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/bottom_nav_background"
+        app:menu="@menu/bottom_navigation_menu"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        android:theme="@style/Widget.BottomNavigationView"
+        />
+</RelativeLayout>

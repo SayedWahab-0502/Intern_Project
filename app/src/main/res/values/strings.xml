@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="register_textview">Please register \nbefore Bidding!</string>
+
+    <string name="home">Home</string>
+    <string name="market">Market</string>
+    <string name="finance">Finance</string>
+    <string name="availability">Availability</string>
+    <string name="my_account">My Account</string>
+    <string name="subtitle">Lorem ipsum dolor sit amet,consectetur\nng elit,sed do eiusmod tempor incididu</string>
+    <string name="earn_referal_text">You can use referral code to refer your friends to \n direct deliver and get rewarded</string>
+    <string name="long_text">Lorem ipsum dolor sit amet, consectetur adipisci \nng elit,sed do eiusmodtemper incididu nt u\nt labore</string>
+    <string name="long_text2">Lorem ipsum dolor sit amet, consectetur adipiscing edit elit, sed do \neiusmod tempor incididunt ut labore</string>
+    <string name="text_ongoing">Lorem ipsum dolor sit amet, consectetur adipisci ng elit,\nsed do eiusmodte,por incididu nt labore</string>
+    <string name="suliman_mohammed">Suliman Mohammed</string>
+    <string name="painter_plumber"><![CDATA[Painter & Plumber]]></string>
+    <string name="save_your_money">Save your money and replace your lights with LED\n for 4 SAR light only : We love you, so we offer you a \n 45%discount on installation service</string>
+    <string name="i_need_bathroom">I need a new bath shower Lorem ipsum dolor sit amet, consectrtur adipiscing elit,</string>
+    <string name="souliman_mohammed">Souliman Mohammed</string>
+    <string name="you_have_received">You have received 40 orders and 0 orders have been\n  cancelled</string>
+    <string name="long_text_performance">Lorem ipsum dolor sit amet, consectetur adipisci ng elit,\nsed do eiusmodte,por incididu nt labore et dolore ma</string>
+    <string name="share_earn"><![CDATA[Share & earn]]></string>
+
+
+</resources>

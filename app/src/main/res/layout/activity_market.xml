@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Market"
+    android:orientation="vertical">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="100dp">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgrpund_new"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="5dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:id="@+id/relative1">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textview1111"
+                        android:text="@string/save_your_money"
+                        android:textColor="@color/royal_blue"
+                        android:gravity="center_horizontal"
+                        android:textSize="13sp"
+                        android:layout_marginTop="5dp"></TextView>
+
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="23dp"
+                        android:layout_below="@+id/textview1111"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/spinner_bg"
+                        android:text="Join"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"></Button>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgrpund_new"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="5dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:id="@+id/relative2">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textview222"
+                        android:text="@string/save_your_money"
+                        android:textColor="@color/royal_blue"
+                        android:gravity="center_horizontal"
+                        android:textSize="13sp"
+                        android:layout_marginTop="5dp"></TextView>
+
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="23dp"
+                        android:layout_below="@+id/textview222"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/spinner_bg"
+                        android:text="Join"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"></Button>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgrpund_new"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="5dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:id="@+id/relative3">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textview333"
+                        android:text="@string/save_your_money"
+                        android:textColor="@color/royal_blue"
+                        android:gravity="center_horizontal"
+                        android:textSize="13sp"
+                        android:layout_marginTop="5dp"></TextView>
+
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="23dp"
+                        android:layout_below="@+id/textview333"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/spinner_bg"
+                        android:text="Join"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"></Button>
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgrpund_new"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:id="@+id/relative5">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/taplinear2">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_tap"
+                            android:background="@drawable/shape222"
+                            android:scaleType="center"
+                            android:id="@+id/imagetap2">
+                        </ImageView>
+
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Description"
+                            android:textSize="8sp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorblack">
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/helper2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp">
+
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="left"
+
+                            android:background="@drawable/background_textview"
+                            android:backgroundTintMode="src_over"
+                            android:backgroundTint="@color/colorbgicons_new"
+                            android:text="Open Request"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorblack"
+                            android:textSize="8dp">
+
+                        </Button>
+
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="right"
+                            android:text="View Request"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="2dp"
+                            android:textSize="8dp"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:background="@drawable/spinner_bg"
+                            >
+
+                        </Button>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/helper2"
+                        android:layout_toRightOf="@id/taplinear2"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="7dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="Will Ipsum"
+                            android:textColor="@color/royal_blue">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="Address: 180/1,park road,UAE"
+                            android:textColor="@color/colorblack">
+                        </TextView>
+
+
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textview44"
+                       android:layout_below="@+id/taplinear2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/i_need_bathroom"
+                        android:textColor="@color/royal_blue"
+                        android:textSize="10sp"
+                        ></TextView>
+
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="23dp"
+                        android:layout_below="@+id/textview44"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/button"
+                        android:text="Recieve the requisition"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:id="@+id/new_deal"></Button>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgrpund_new"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:id="@+id/relative5">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/taplinear2">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_tap"
+                            android:background="@drawable/shape222"
+                            android:scaleType="center"
+                            android:id="@+id/imagetap2">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Description"
+                            android:textSize="8sp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorblack">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/helper2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp">
+
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="left"
+
+                            android:background="@drawable/background_textview"
+                            android:backgroundTintMode="src_over"
+                            android:backgroundTint="@color/colorbgicons_new"
+                            android:text="Open Request"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorblack"
+                            android:textSize="8dp">
+
+                        </Button>
+
+
+                        <Button
+                            android:layout_width="70dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="right"
+                            android:text="View Request"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="2dp"
+                            android:textSize="8dp"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorsnow"
+                            android:background="@drawable/spinner_bg"
+                            >
+
+                        </Button>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/helper2"
+                        android:layout_toRightOf="@id/taplinear2"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="7dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="Will Ipsum"
+                            android:textColor="@color/royal_blue">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="Address: 180/1,park road,UAE"
+                            android:textColor="@color/colorblack">
+                        </TextView>
+
+
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textview44"
+                        android:layout_below="@+id/taplinear2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/i_need_bathroom"
+                        android:textColor="@color/royal_blue"
+                        android:textSize="10sp"
+                        ></TextView>
+
+
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="23dp"
+                        android:layout_below="@+id/textview44"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/button"
+                        android:text="Recieve the requisition"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"></Button>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backgrpund_new"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="5dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:id="@+id/relative3">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textview333"
+                        android:text="@string/save_your_money"
+                        android:textColor="@color/royal_blue"
+                        android:gravity="center_horizontal"
+                        android:textSize="13sp"
+                        android:layout_marginTop="5dp"></TextView>
+
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="23dp"
+                        android:layout_below="@+id/textview333"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/spinner_bg"
+                        android:text="Join"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"></Button>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/bottom_nav_background"
+        app:menu="@menu/bottom_navigation_menu"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        android:theme="@style/Widget.BottomNavigationView"
+        />
+
+</RelativeLayout>

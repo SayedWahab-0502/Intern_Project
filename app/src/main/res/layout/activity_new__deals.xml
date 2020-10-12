@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".New_Deals"
+    android:background="@color/royal_blue">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp"
+            android:paddingBottom="100dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:background="@drawable/txextview_bg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:backgroundTintMode="src_over"
+                    android:backgroundTint="@color/colorbgicons_new"
+                    android:background="@drawable/border_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_woodwork"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$50-$120"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:layout_marginHorizontal="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD"
+                        android:textSize="10sp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_auction"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I need a new bed for my bed room"
+                        android:textSize="15sp"
+                        android:textColor="@color/royal_blue"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp">
+
+                    </TextView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Send Bid"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_textview"
+                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/royal_blue"
+                        android:layout_marginVertical="10dp"
+                        android:paddingHorizontal="40dp"
+                        android:layout_weight="1"
+                        android:id="@+id/ongoingrequest"
+                        ></Button>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:background="@drawable/txextview_bg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:backgroundTintMode="src_over"
+                    android:backgroundTint="@color/colorbgicons_new"
+                    android:background="@drawable/border_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_woodwork"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$10-$100"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:layout_marginHorizontal="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD Per Hour"
+                        android:textSize="10sp"
+                        android:layout_gravity="center_horizontal">
+
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_auction"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I need a new bed for my bed room"
+                        android:textSize="15sp"
+                        android:textColor="@color/royal_blue"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp">
+
+                    </TextView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Send Bid"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_textview"
+                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/royal_blue"
+                        android:layout_marginVertical="10dp"
+                        android:paddingHorizontal="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        ></Button>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:background="@drawable/txextview_bg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:backgroundTintMode="src_over"
+                    android:backgroundTint="@color/colorbgicons_new"
+                    android:background="@drawable/border_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_woodwork"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$50-$120"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:layout_marginHorizontal="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD"
+                        android:textSize="10sp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_interview"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I need a new bed for my bed room"
+                        android:textSize="15sp"
+                        android:textColor="@color/royal_blue"
+                        android:paddingLeft="5dp"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Send Bid"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_textview"
+                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/royal_blue"
+                        android:layout_marginVertical="10dp"
+                        android:paddingHorizontal="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        ></Button>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:background="@drawable/txextview_bg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:backgroundTintMode="src_over"
+                    android:backgroundTint="@color/colorbgicons_new"
+                    android:background="@drawable/border_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_woodwork"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$10-$100"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:layout_marginHorizontal="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD Per Hour"
+                        android:textSize="10sp"
+                        android:layout_gravity="center_horizontal">
+
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_alarm"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I need a new bed for my bed room"
+                        android:textSize="15sp"
+                        android:textColor="@color/royal_blue"
+                        android:paddingLeft="5dp"
+                        android:layout_weight="1"
+                        >
+
+                    </TextView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Send Bid"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_textview"
+                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/royal_blue"
+                        android:layout_marginVertical="10dp"
+                        android:paddingHorizontal="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        ></Button>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:background="@drawable/txextview_bg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:backgroundTintMode="src_over"
+                    android:backgroundTint="@color/colorbgicons_new"
+                    android:background="@drawable/border_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_woodwork"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$50-$120"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:layout_marginHorizontal="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD"
+                        android:textSize="10sp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp">
+
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_calendar"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I need a new bed for my bed room"
+                        android:textSize="15sp"
+                        android:textColor="@color/royal_blue"
+                        android:paddingLeft="5dp"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Send Bid"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_textview"
+                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/royal_blue"
+                        android:layout_marginVertical="10dp"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="40dp"
+                        android:layout_weight="1"
+                        ></Button>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:background="@drawable/txextview_bg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:backgroundTintMode="src_over"
+                    android:backgroundTint="@color/colorbgicons_new"
+                    android:background="@drawable/border_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_woodwork"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$10-$100"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"
+                        android:layout_marginHorizontal="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD Per Hour"
+                        android:textSize="10sp"
+                        android:layout_gravity="center_horizontal"
+                        >
+
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_alarm"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I need a new bed for my bed room"
+                        android:textSize="15sp"
+                        android:textColor="@color/royal_blue"
+                        android:paddingLeft="5dp"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Send Bid"
+                        android:textAllCaps="false"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/background_textview"
+                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/royal_blue"
+                        android:layout_marginVertical="10dp"
+                        android:paddingHorizontal="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        ></Button>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/bottom_nav_background"
+        app:menu="@menu/bottom_navigation_menu"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        android:theme="@style/Widget.BottomNavigationView" />
+
+</RelativeLayout>

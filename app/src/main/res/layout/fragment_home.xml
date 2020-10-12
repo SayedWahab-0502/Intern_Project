@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="160dp"
+      android:background="@drawable/homeshape1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Ahmed Khan"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/new_color"
+        android:id="@+id/text1">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:orientation="horizontal">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="@drawable/homeshape2"
+          android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="20dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="10 points"
+              android:textColor="@color/orange_main">
+          </TextView>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="$140"
+              android:textColor="@color/orange_main"
+              >
+          </TextView>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_wallet"
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginHorizontal="10dp">
+
+        </ImageView>
+      </LinearLayout>
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@drawable/man"
+          android:layout_marginHorizontal="10dp"
+          android:scaleType="centerCrop"
+
+          >
+
+      </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="@drawable/homeshape3"
+          android:layout_marginTop="10dp"
+          >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_wallet"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="10dp">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp">
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="$150/"
+                  android:textColor="@color/blue_main">
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="per month"
+                  android:textColor="@color/orange_main"
+                  >
+              </TextView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="$150/"
+                  android:textColor="@color/blue_main">
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Total"
+                  android:textColor="@color/orange_main"
+                  >
+              </TextView>
+
+            </LinearLayout>
+
+          </LinearLayout>
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+
+
+    </LinearLayout>
+
+  </RelativeLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="30dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/edittext_bg"
+        >
+
+      <TextView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text="2"
+          android:textSize="25sp"
+          android:textColor="@color/blue_main"
+          android:background="@drawable/textcircle"
+          android:gravity="center"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginVertical="15dp"
+          android:padding="10dp"></TextView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="On-going Request"
+          android:textSize="15sp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginHorizontal="15dp"></TextView>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="20dp"
+          android:text="Details"
+          android:textAllCaps="false"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/spinner_bg"
+          android:textColor="@color/colorsnow"
+          android:layout_marginBottom="10dp">
+
+      </Button>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/edittext_bg">
+
+
+      <TextView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text="2"
+          android:textColor="@color/blue_main"
+          android:background="@drawable/textcircle"
+          android:textSize="25sp"
+          android:padding="10dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginVertical="15dp"
+          android:gravity="center"
+          ></TextView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="On-going Request"
+          android:textSize="15sp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginHorizontal="15dp"></TextView>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="20dp"
+          android:text="Details"
+          android:textAllCaps="false"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/spinner_bg"
+          android:textColor="@color/colorsnow"
+          android:layout_marginBottom="10dp">
+
+      </Button>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="40dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/edittext_bg">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="2"
+          android:textSize="25sp"
+          android:textColor="@color/blue_main"
+
+          android:layout_gravity="center_horizontal"
+          android:layout_marginVertical="15dp"></TextView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="On-going Request"
+          android:textSize="15sp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginHorizontal="15dp"></TextView>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="20dp"
+          android:text="Details"
+          android:textAllCaps="false"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/spinner_bg"
+          android:textColor="@color/colorsnow"
+          android:layout_marginBottom="10dp">
+
+      </Button>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/layout_id">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="2"
+          android:textSize="25sp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginVertical="15dp"></TextView>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="On-going Request"
+          android:textSize="15sp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginHorizontal="15dp"></TextView>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="20dp"
+          android:text="Details"
+          android:textAllCaps="false"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/spinner_bg"
+          android:textColor="@color/colorsnow"
+          android:layout_marginBottom="10dp">
+
+      </Button>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</LinearLayout>

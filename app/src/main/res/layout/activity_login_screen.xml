@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen"
+    android:background="@drawable/labbay_new"
+    android:backgroundTintMode="src_atop"
+    android:backgroundTint="#9AFFFEFE"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/labbay2"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image1"
+        >
+
+    </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/backgroundedittext"
+        android:hint="Mobile no"
+        android:textColorHint="#000"
+        android:paddingLeft="15dp"
+        android:paddingVertical="8dp"
+        android:textColor="#000"
+        android:id="@+id/edittextlogin">
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/edittextlogin"
+        android:layout_marginTop="55dp"
+        >
+
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:paddingHorizontal="55dp"
+            android:text="LOG IN"
+            android:textColor="@color/colorsnow"></Button>
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:paddingHorizontal="41dp"
+            android:text="Registration"
+            android:textAllCaps="false"
+            android:textColor="@color/colorsnow"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Looking for customer's app?"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:textColor="#000"
+            android:textSize="15sp"></TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>
