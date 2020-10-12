@@ -24,9 +24,9 @@
         <activity android:name="com.Labbay.SplashScreen" />
         <activity android:name="com.Labbay.Summary" />
         <activity android:name="com.Labbay.RegisterScreen" />
-        <activity android:name="com.Labbay.LoginScreen" />
         <activity android:name="com.Labbay.MainActivity" />
 
+        <activity android:name="com.Labbay.LoginScreen" />
 
         <activity android:name="com.Labbay.OnGoingRequest">
             <intent-filter>
