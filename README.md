@@ -8,7 +8,7 @@ My internship work.
 <img src="App_Screenshots_ScreenDesigns/labbay1.jpg" width="400"/>
 
 
-<img src="App_Screenshots_ScreenDesigns/labbay10.jpg" width="400"/>
+<img src="App_Screenshots_ScreenDesigns/labbay10.jpg" width="400" height="500"/>
 
 <img src="App_Screenshots_ScreenDesigns/labbay11.jpg" width="400"/>
 
