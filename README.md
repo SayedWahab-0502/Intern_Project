@@ -22,8 +22,12 @@ My internship work.
 
 <img src="App_Screenshots_ScreenDesigns/labbay2.jpg.png" width="400"/>
 
-<img src="App_Screenshots_ScreenDesigns/labbay1.jpg" width="400"/>
+<img src="App_Screenshots_ScreenDesigns/labbay3.jpg.png" width="400"/>
 
-<img src="App_Screenshots_ScreenDesigns/labbay1.jpg" width="400"/>
+<img src="App_Screenshots_ScreenDesigns/labbay4.jpg.png" width="400"/>
 
-<img src="App_Screenshots_ScreenDesigns/labbay1.jpg" width="400"/>
+<img src="App_Screenshots_ScreenDesigns/labbay5.jpg" width="400"/>
+
+<img src="App_Screenshots_ScreenDesigns/labbay6.jpg.png" width="400"/><img src="App_Screenshots_ScreenDesigns/labbay7.jpg" width="400"/>
+
+<img src="App_Screenshots_ScreenDesigns/labbay8.jpg" width="400"/><img src="App_Screenshots_ScreenDesigns/labbay9.jpg" width="400"/>
